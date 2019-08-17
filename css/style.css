@@ -867,7 +867,7 @@ back to top
   line-height: 3;
   font-size: 16px;
   border-radius: 50%;
-  right: 30px;
+  right: 15px;
   bottom: 23px;
   transition: background 0.5s;
   z-index: 11;
@@ -965,6 +965,10 @@ Responsive media queries
   h2.bnr-sub-title {
     font-size: 33px;
   }
+  .back-to-top {
+    right: 40px;
+  }
+
   body {
     font-size: 14px;
   }
