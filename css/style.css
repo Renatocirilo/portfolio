@@ -142,6 +142,7 @@ HEADER
 .navbar-default {
   background-color: transparent;
   border: 0px;
+  
   padding: 20px 0;
   transition: all 0.3s;
 }
@@ -936,6 +937,7 @@ Responsive media queries
   }
   .navbar-header {
     padding-right: 15px;
+    background: url("../img/bg-banner02.jpg") no-repeat fixed
   }
   h1.bnr-title {
     font-size: 16px;
@@ -955,6 +957,11 @@ Responsive media queries
   }
   .navbar-header {
     padding-right: 15px;
+  }
+
+  .header {
+    background: url("../img/bg-banner02.jpg") no-repeat center;
+    width: 100%;
   }
   .banner-info {
     padding-top: 40px;
