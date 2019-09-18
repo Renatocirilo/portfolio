@@ -810,10 +810,7 @@ Responsive media queries
     padding-left: 10px;
     margin-top: 0px;
   }
-  .navbar-header {
-    padding-right: 15px;
-  }
-
+  
   .header {
     background: url("../img/bg-banner02.jpg") no-repeat center;
     width: 100%;
