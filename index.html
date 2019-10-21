@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Renato | Workplace | Portfolio</title>
+  <title>Renato | Portfolio</title>
   <link rel="icon" href="favicon.ico">
   <meta name="description" content="No text">
   <meta name="keywords" content="No text">
@@ -295,39 +295,33 @@
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="contact-form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <!-- <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage">Erro ao enviar mensagem</div> -->
+
+              <form id="form" method="POST">
                 <div class="col-md-6 padding-right-zero">
-                  <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome"
-                      data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control"  id="name" placeholder="Seu Nome"/>
+                    </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail"
-                      data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail" />
+                    </div>
                 </div>
                 <div class="col-md-12">
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto"
-                      data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                    <div class="validation"></div>
-                  </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto"  />
+                    </div>
                 </div>
                 <div class="col-md-12">
-                  <div class="form-group">
-                    <textarea class="form-control" name="message" rows="5" data-rule="required"
-                      data-msg="Please write something for us" placeholder="Mensagem"></textarea>
-                    <div class="validation"></div>
-                  </div>
-                  <button type="submit" class="btn btn-primary btn-submit">ENVIAR</button>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" placeholder="Mensagem"></textarea>
+                    </div>
+                    <button type="submit" value="Send" class="btn btn-primary btn-submit">ENVIAR</button>
                 </div>
-              </form>
+            </form>
+
 
             </div>
           </div>
@@ -374,7 +368,7 @@
   <script src="js/wow.js"></script>
   <script src="js/jquery.bxslider.min.js"></script>
   <script src="js/custom.js"></script>
-  <script src="contactform/contactform.js"></script>
+ <script src="contactForm/contactform.js"></script>
 
 </body>
 

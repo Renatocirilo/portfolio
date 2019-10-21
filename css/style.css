@@ -575,18 +575,9 @@ contact
   color: #fff;
 }
 
-.validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#sendmessage {
-  color: green;
-  border: 1px solid green;
-  display: none;
+/* #sendmessage {
+  color: #be9e21;
+  border: 1px solid #be9e21;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -594,20 +585,19 @@ contact
 }
 
 #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
+  color: #ff1e00;
+  border: 1px solid #ff1e00;
   text-align: center;
   padding: 15px;
   font-weight: 600;
   margin-bottom: 15px;
-}
-
+} */
+/* 
 #sendmessage.show,
 #errormessage.show,
 .show {
   display: block;
-}
+} */
 
 .loction-info p {
   margin-bottom: 25px;
@@ -742,7 +732,7 @@ back to top
 .back-to-top {
   position: fixed;
   display: none;
-  background: #be9e21;
+  background: #9932cc;
   color: #fff;
   width: 50px;
   height: 50px;
