@@ -3,6 +3,6 @@ $("form").submit(function(e) {
 
   var $form = $(this);
   $.post($form.attr("action"), $form.serialize()).then(function() {
-    alert("Thank you!");
+    alert("Obrigado pela mensagem, em breve estarei respondendo");
   });
 });
