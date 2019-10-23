@@ -295,28 +295,25 @@
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="contact-form">
-              <!-- <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage">Erro ao enviar mensagem</div> -->
-
-              <form id="my-form" method="post" data-netlify="true" action="/pages/success">
+              <form id="my-form" method="post" required data-netlify="true" action="/pages/success">
                 <div class="col-md-6 padding-right-zero">
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control"  id="name" placeholder="Seu Nome"/>
+                        <input type="text" required name="name" class="form-control"  id="name" placeholder="Seu Nome"/>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail" />
+                        <input type="email" required class="form-control" name="email" id="email" placeholder="Seu e-mail" />
                     </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
-                      <input class="form-control" name="subject" id="subject" data-rule="required" placeholder="Assunto"></input>
+                      <input class="form-control" required name="subject" id="subject" data-rule="required" placeholder="Assunto"></input>
                   </div>
                 </div>
                 <div class="col-md-12">
                     <div class="form-group">
-                        <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" placeholder="Mensagem"></textarea>
+                        <textarea class="form-control" required name="message" id="message" rows="5" data-rule="required" placeholder="Mensagem"></textarea>
                     </div>
                     <button type="submit" value="Send" class="btn btn-primary btn-submit">ENVIAR</button>
                 </div>

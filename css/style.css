@@ -544,7 +544,6 @@ contact
 }
 
 .btn-submit,
-.btn-submit:hover,
 .btn-submit:focus {
   background-color: transparent;
   border-radius: 60px;
@@ -553,6 +552,12 @@ contact
   border: 1px solid #be9e21;
   font-size: 14px;
   padding: 6px 20px;
+}
+
+.btn-submit:hover {
+  color: #fff;
+  background-color: #be9e21;
+  border: 1px solid #be9e21;
 }
 
 .form-control {
@@ -574,30 +579,6 @@ contact
 .contact-form input.form-control {
   color: #fff;
 }
-
-/* #sendmessage {
-  color: #be9e21;
-  border: 1px solid #be9e21;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#errormessage {
-  color: #ff1e00;
-  border: 1px solid #ff1e00;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-} */
-/* 
-#sendmessage.show,
-#errormessage.show,
-.show {
-  display: block;
-} */
 
 .loction-info p {
   margin-bottom: 25px;
