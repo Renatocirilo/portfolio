@@ -585,6 +585,11 @@ contact
   color: #ffffff;
 }
 
+.loction-info a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .loction-info p i {
   color: #be9e21;
 }
