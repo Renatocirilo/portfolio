@@ -6,9 +6,9 @@
   });
   wow.init();
 
-  // $(".navbar-collapse a").on("click", function() {
-  //   $(".navbar-collapse.collapse").removeClass("in");
-  // });
+  $(".navbar-collapse a").on("click", function() {
+   $(".navbar-collapse.collapse").removeClass("in");
+  });
 
   // Navigation scrolls
   $(".navbar-nav li a").bind("click", function(event) {
@@ -74,31 +74,6 @@
   $(".back-to-top").click(function() {
     $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
     return false;
-  });
-
-  $(document).ready(function(e) {
-    $("form[ajax=true]").submit(function(e) {
-      e.preventDefault();
-
-      var form_data = $(this).serialize();
-      var form_url = $(this).attr("action");
-      var form_method = $(this)
-        .attr("method")
-        .toUpperCase();
-
-      $("#sendmessage").show();
-
-      $.ajax({
-        url: form_url,
-        type: form_method,
-        data: form_data,
-        cache: false,
-        success: function(returnhtml) {
-          $("#sendmessage").html(returnhtml);
-          $("#sendmessage").hide();
-        }
-      });
-    });
   });
 
   // Preloader
