@@ -736,6 +736,14 @@ back to top
   z-index: 11;
 }
 
+.back-to-top i:hover {
+  color: #ee9a49;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
 .back-to-top i {
   padding-top: 12px;
   color: #fff;
