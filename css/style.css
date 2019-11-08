@@ -164,7 +164,7 @@ HEADER
 }
 
 .logo-dec {
-  color: #be9e21;
+  color: #ee9a49;
 }
 
 .navbar-default .navbar-brand {
@@ -202,14 +202,14 @@ HEADER
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-  color: #be9e21;
+  color: #ee9a49;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
   background-color: transparent;
-  color: #be9e21;
+  color: #ee9a49;
 }
 
 .banner-info {
@@ -260,26 +260,26 @@ h2.bnr-sub-title {
 }
 
 .btn-download {
-  background-color: #be9e21;
+  background-color: #ee9a49;
   transition: all 0.3s;
 }
 
 .btn-download:hover {
   background: transparent;
-  border: 1px solid #be9e21;
+  border: 1px solid #ee9a49;
   transition: all 0.3s;
-  color: #be9e21;
+  color: #ee9a49;
 }
 
 .btn-more,
 .btn-more:focus {
   margin-left: 15px;
-  border: 1px solid #be9e21;
-  color: #be9e21;
+  border: 1px solid #ee9a49;
+  color: #ee9a49;
 }
 
 .btn-more:hover {
-  background: #be9e21;
+  background: #ee9a49;
   color: #fff;
 }
 
@@ -325,7 +325,7 @@ features
   border-top: 0px;
   height: 3px;
   width: 40px;
-  background-color: #be9e21;
+  background-color: #ee9a49;
 }
 
 .wrap-item h3 {
@@ -427,8 +427,17 @@ ul.service-list li i {
 }
 
 .service-item a {
-  color: #be9e21;
+  color: #ee9a49;
   text-decoration: none;
+  text-transform: uppercase;
+}
+.service-item a:hover {
+  color: #67696c;
+  font-weight: bold;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .mr-btn-15 {
@@ -492,7 +501,7 @@ ul.service-list li i {
   width: 100%;
   height: 100%;
   padding: 59px 30px;
-  background-color: #be9e21;
+  background-color: #ee9a49;
   backface-visibility: hidden;
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -538,28 +547,28 @@ contact
 .btn-submit:focus {
   background-color: transparent;
   border-radius: 60px;
-  color: #be9e21;
+  color: #ee9a49;
   font-weight: 400;
-  border: 1px solid #be9e21;
+  border: 1px solid #ee9a49;
   font-size: 14px;
   padding: 6px 20px;
 }
 
 .btn-submit:hover {
   color: #fff;
-  background-color: #be9e21;
-  border: 1px solid #be9e21;
+  background-color: #ee9a49;
+  border: 1px solid #ee9a49;
 }
 
 .form-control {
   background-color: transparent;
   border-radius: 0px;
-  color: #be9e21 !important;
-  border-color: #be9e21;
+  color: #ffffff !important;
+  border-color: #ee9a49;
 }
 
 .form-control:focus {
-  border-color: #be9e21;
+  border-color: #ee9a49;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(102, 175, 233, 0.6);
@@ -582,7 +591,7 @@ contact
 }
 
 .loction-info p i {
-  color: #be9e21;
+  color: #ee9a49;
 }
 
 /***********************************
@@ -599,11 +608,16 @@ contact
   display: inline;
   padding: 10px;
 }
-
 #footer {
   padding: 10px 0px;
 }
+#footer a {
+  font-weight: 400;
+}
 
+#footer ul li a {
+  font-size: 25px;
+}
 .scrollToTop {
   position: fixed;
   bottom: 12px;
@@ -611,7 +625,7 @@ contact
   width: 42px;
   height: 42px;
   color: #ffffff;
-  background: #be9e21;
+  background: #ee9a49;
   font-size: 14px;
   line-height: 42px;
   text-align: center;
@@ -622,14 +636,6 @@ contact
 
 .white-bg {
   background-color: #fff;
-}
-
-#footer a {
-  font-weight: 400;
-}
-
-#footer ul li a {
-  font-size: 25px;
 }
 
 /***********************************
@@ -692,7 +698,7 @@ preloader
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #be9e21;
+  border-top: 6px solid #ee9a49;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -709,7 +715,7 @@ back to top
 .back-to-top {
   position: fixed;
   display: none;
-  background: #9932cc;
+  background: #000000;
   color: #fff;
   width: 50px;
   height: 50px;
@@ -790,6 +796,13 @@ Responsive media queries
 .font-contact li {
   display: inline;
   padding: 10px;
+}
+.font-contact li i:hover {
+  color: #ee9a49;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 @media (min-width: 451px) and (max-width: 767px) {
