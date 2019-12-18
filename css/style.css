@@ -121,7 +121,7 @@ HEADER
 .header {
   background: url("../img/bg-banner02.jpg") no-repeat fixed;
   background-size: cover;
-  min-height: 650px;
+  height: 650px;
   position: relative;
 }
 
@@ -301,6 +301,11 @@ features
 
 .item-img {
   margin-bottom: 15px;
+}
+
+.item-img img {
+  width: 64px;
+  height: 64px;
 }
 
 .sub-title {
