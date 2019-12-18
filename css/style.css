@@ -854,6 +854,13 @@ ul.font-contact {
   .loction-info {
     padding: 0px 15px;
   }
+
+  .signature {
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding-right: 40px;
+  }
   .portfolio-item figure figcaption {
     padding: 30px 30px;
   }
