@@ -288,12 +288,12 @@ h2.bnr-sub-title {
 
 /***********************************
 ************************************
-features
+qualifys
 ************************************
 ***********************************/
 
 .title,
-.service-title {
+.curses-title {
   font-family: "Fira Sans", sans-serif;
   font-size: 35px;
   text-transform: uppercase;
@@ -319,7 +319,7 @@ features
   color: #ffffff;
 }
 
-.service-title-local {
+.curses-title-local {
   font-family: "Fira Sans", sans-serif;
   font-size: 35px;
   text-transform: uppercase;
@@ -358,11 +358,11 @@ features
   line-height: 1.7;
 }
 
-#service {
+#curses {
   background-color: #f3f4f8;
 }
 
-ul.service-list li i {
+ul.curses-list li i {
   color: #002f2f;
   padding-right: 10px;
 }
@@ -396,7 +396,7 @@ ul.service-list li i {
   margin-right: 65px;
 }
 
-.service-item h3 span {
+.curses-item h3 span {
   opacity: 0.7;
   font-size: 75px;
   line-height: 1;
@@ -406,22 +406,22 @@ ul.service-list li i {
   padding-right: 6px;
 }
 
-.service-item h3 {
+.curses-item h3 {
   font-weight: 700;
 }
 
-.service-item p {
+.curses-item p {
   opacity: 0.6;
   color: inherit;
   padding: 10px 0px;
 }
 
-.service-item a {
+.curses-item a {
   color: #ee9a49;
   text-decoration: none;
   text-transform: uppercase;
 }
-.service-item a:hover {
+.curses-item a:hover {
   color: #67696c;
   font-weight: bold;
   -webkit-transition: 0.2s ease-in;
@@ -530,6 +530,14 @@ contact
 
 #footer ul li a {
   font-size: 25px;
+}
+
+.signature {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 40px;
 }
 .scrollToTop {
   position: fixed;
@@ -686,7 +694,7 @@ Responsive media queries
 ***********************************/
 
 @media (min-width: 768px) and (max-width: 980px) {
-  .service-item,
+  .curses-item,
   .blog-sec,
   .wrap-item,
   .loction-info {
@@ -727,7 +735,7 @@ Responsive media queries
 }
 
 @media (min-width: 451px) and (max-width: 767px) {
-  .service-item,
+  .curses-item,
   .blog-sec,
   .wrap-item,
   .loction-info {
@@ -766,7 +774,7 @@ ul.font-contact {
     margin-top: 0px;
   }
 
-  .service-title-local {
+  .curses-title-local {
     font-family: "Fira Sans", sans-serif;
     font-size: 20px;
     text-transform: uppercase;
@@ -821,7 +829,7 @@ ul.font-contact {
     font-size: 18px;
   }
   .title,
-  .service-title {
+  .curses-title {
     font-size: 28px;
     margin-bottom: 30px;
   }
@@ -837,7 +845,7 @@ ul.font-contact {
     color: black;
     display: inline;
   }
-  .service-item,
+  .curses-item,
   .blog-sec,
   .wrap-item,
   .loction-info {
