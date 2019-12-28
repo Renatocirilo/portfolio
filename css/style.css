@@ -164,7 +164,7 @@ HEADER
 }
 
 .logo-dec {
-  color: #ee9a49;
+  color: #499dee;
 }
 
 .navbar-default .navbar-brand {
@@ -202,14 +202,14 @@ HEADER
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-  color: #ee9a49;
+  color: #499dee;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
   background-color: transparent;
-  color: #ee9a49;
+  color: #499dee;
 }
 
 .banner-info {
@@ -277,12 +277,12 @@ h2.bnr-sub-title {
 .btn-more,
 .btn-more:focus {
   margin-left: 15px;
-  border: 1px solid #ee9a49;
-  color: #ee9a49;
+  border: 1px solid #499dee;
+  color: #499dee;
 }
 
 .btn-more:hover {
-  background: #ee9a49;
+  background: #499dee;
   color: #fff;
 }
 
@@ -333,7 +333,7 @@ qualifys
   border-top: 0px;
   height: 3px;
   width: 40px;
-  background-color: #ee9a49;
+  background-color: #499dee;
 }
 
 .wrap-item h3 {
@@ -417,7 +417,7 @@ ul.curses-list li i {
 }
 
 .curses-item a {
-  color: #ee9a49;
+  color: #499dee;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -456,17 +456,17 @@ contact
 .btn-submit:focus {
   background-color: transparent;
   border-radius: 60px;
-  color: #ee9a49;
+  color: #499dee;
   font-weight: 400;
-  border: 1px solid #ee9a49;
+  border: 1px solid #499dee;
   font-size: 14px;
   padding: 6px 20px;
 }
 
 .btn-submit:hover {
   color: #fff;
-  background-color: #ee9a49;
-  border: 1px solid #ee9a49;
+  background-color: #499dee;
+  border: 1px solid #499dee;
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
@@ -477,11 +477,11 @@ contact
   background-color: transparent;
   border-radius: 0px;
   color: #ffffff !important;
-  border-color: #ee9a49;
+  border-color: #499dee;
 }
 
 .form-control:focus {
-  border-color: #ee9a49;
+  border-color: #499dee;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(102, 175, 233, 0.6);
@@ -504,7 +504,7 @@ contact
 }
 
 .loction-info p i {
-  color: #ee9a49;
+  color: #499dee;
 }
 
 /***********************************
@@ -546,7 +546,7 @@ contact
   width: 42px;
   height: 42px;
   color: #ffffff;
-  background: #ee9a49;
+  background: #499dee;
   font-size: 14px;
   line-height: 42px;
   text-align: center;
@@ -619,7 +619,7 @@ preloader
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #ee9a49;
+  border-top: 6px solid #499dee;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -651,7 +651,7 @@ back to top
 }
 
 .back-to-top i:hover {
-  color: #ee9a49;
+  color: #499dee;
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
@@ -727,7 +727,7 @@ Responsive media queries
   padding: 10px;
 }
 .font-contact li i:hover {
-  color: #ee9a49;
+  color: #499dee;
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
