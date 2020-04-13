@@ -265,6 +265,10 @@ h2.bnr-sub-title {
 }
 
 .btn-download:hover {
+  color: #ffffff;
+}
+
+/* .btn-download:hover {
   background: transparent;
   border: 1px solid #838aa1;
   color: #838aa1;
@@ -272,7 +276,7 @@ h2.bnr-sub-title {
   -moz-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
-}
+} */
 
 .btn-more,
 .btn-more:focus {
