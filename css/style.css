@@ -1,7 +1,7 @@
 body {
   line-height: 1.4;
   font-family: "Roboto", sans-serif;
-  color: #67696c;
+  color: #000000;
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 0.5px;
@@ -420,7 +420,7 @@ ul.curses-list li i {
 
 .curses-item p {
   opacity: 0.6;
-  color: inherit;
+  color: #000000;
   padding: 10px 0px;
 }
 
@@ -430,7 +430,7 @@ ul.curses-list li i {
   text-transform: uppercase;
 }
 .curses-item a:hover {
-  color: #67696c;
+  color: #499dee;
   font-weight: bold;
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
