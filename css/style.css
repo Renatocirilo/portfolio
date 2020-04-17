@@ -362,7 +362,11 @@ qualifys
   line-height: 1.7;
 }
 
-#curses {
+#curses{
+  background-color: #f3f4f8;
+}
+
+#me{
   background-color: #f3f4f8;
 }
 
